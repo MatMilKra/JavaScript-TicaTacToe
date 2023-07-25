@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>String output</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="center">
+        <h1>Tic Tac Toe</h1>
+      <button id="btn" onclick="game.reset()">Restart</button>
+      <span id="nowTurn">Now turn: X</span>
+      </div>
+    <br>
+      <table class="center">
+        <tr>
+          <td>
+            <button
+              class="button"
+              id="b0"
+              onclick="clickButton(this.id,0)"
+              type="button"
+            ></button>
+          </td>
+          <td>
+            <button
+              class="button"
+              id="b1"
+              onclick="clickButton(this.id,1)"
+              type="button"
+            ></button>
+          </td>
+          <td>
+            <button
+              class="button"
+              id="b2"
+              onclick="clickButton(this.id,2)"
+              type="button"
+            ></button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button
+              class="button"
+              id="b3"
+              onclick="clickButton(this.id,3)"
+              type="button"
+            ></button>
+          </td>
+          <td>
+            <button
+              class="button"
+              id="b4"
+              onclick="clickButton(this.id,4)"
+              type="button"
+            ></button>
+          </td>
+          <td>
+            <button
+              class="button"
+              id="b5"
+              onclick="clickButton(this.id,5)"
+              type="button"
+            ></button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <button
+              class="button"
+              id="b6"
+              onclick="clickButton(this.id,6)"
+              type="button"
+            ></button>
+          </td>
+          <td>
+            <button
+              class="button"
+              id="b7"
+              onclick="clickButton(this.id,7)"
+              type="button"
+            ></button>
+          </td>
+          <td>
+            <button
+              class="button"
+              id="b8"
+              onclick="clickButton(this.id,8)"
+              type="button"
+            ></button>
+          </td>
+        </tr>
+      </table>
+    </main>
+  </div>
+    <script src="script.js"></script>
+  </body>
+</html>
